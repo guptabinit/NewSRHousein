@@ -1,5 +1,5 @@
 export const miscConfig = {
-  enablePushNotification: false,
+  enablePushNotification: true,
   allowMultipleImageSelection: true,
   allowImageEditing: true,
   enableHomeButtonRefreshAction: true,

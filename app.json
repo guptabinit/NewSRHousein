@@ -1,9 +1,11 @@
 {
   "expo": {
-    "name": "HomListi",
-    "slug": "homlisti",
-    "version": "1.31.4",
+    "name": "SR Housein",
+    "slug": "srhousein",
+    "version": "1.0.0",
     "plugins": [
+      "@react-native-google-signin/google-signin",
+      "@react-native-firebase/app",
       [
         "expo-build-properties",
         {
@@ -58,27 +60,31 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "bitcode": "Debug",
       "usesAppleSignIn": true,
       "supportsTablet": true,
-      "bundleIdentifier": "com.homlisti",
+      "bundleIdentifier": "com.srhousein",
       "buildNumber": "1",
       "usesIcloudStorage": true,
       "infoPlist": {
-        "NSCameraUsageDescription": "HomListi uses the camera to capture and upload user profile image and Listing Image to the server.",
-        "NSPhotoLibraryUsageDescription": "HomListi needs access to the photo library to select and upload user profile image and Listing Image to the server.",
-        "NSPhotoLibraryAddUsageDescription": "HomListi needs access to the photo library to select and upload user profile image and Listing Image to the server.",
-        "NSLocationWhenInUseUsageDescription": "HomListi usages device location on listing information, Listing search Data and User information.",
-        "NSLocationAlwaysAndWhenInUseUsageDescription": "HomListi usages device location on listing information, Listing search Data and User information.",
-        "NSLocationAlwaysUsageDescription": "HomListi uses device location on listing information, Listing search Data and User information.",
-        "NSMicrophoneUsageDescription": "HomListi uses your microphone while taking video of your property for uploading in listing information.",
+        "NSCameraUsageDescription": "SR Housein uses the camera to capture and upload user profile image and Listing Image to the server.",
+        "NSPhotoLibraryUsageDescription": "SR Housein needs access to the photo library to select and upload user profile image and Listing Image to the server.",
+        "NSPhotoLibraryAddUsageDescription": "SR Housein needs access to the photo library to select and upload user profile image and Listing Image to the server.",
+        "NSLocationWhenInUseUsageDescription": "SR Housein usages device location on listing information, Listing search Data and User information.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "SR Housein usages device location on listing information, Listing search Data and User information.",
+        "NSLocationAlwaysUsageDescription": "SR Housein uses device location on listing information, Listing search Data and User information.",
+        "NSMicrophoneUsageDescription": "SR Housein uses your microphone while taking video of your property for uploading in listing information.",
         "CFBundleAllowMixedLocalizations": true,
-        "UIBackgroundModes": ["remote-notification"]
+        "UIBackgroundModes": [
+          "remote-notification"
+        ]
       },
       "config": {
-        "googleMapsApiKey": "j7y6hto8nbgf7ibttyg7ur6",
+        "googleMapsApiKey": "AIzaSyDAqpfFVnlLPAkVZAqXkp0QHaDWHJxaWys",
         "usesNonExemptEncryption": false
       }
     },
@@ -86,10 +92,11 @@
       "favicon": "./assets/favicon.png"
     },
     "android": {
-      "package": "com.homlisti",
+      "package": "com.srhousein",
+      "googleServicesFile": "./google-services.json",
       "config": {
         "googleMaps": {
-          "apiKey": "j7y6hto8nbgf7ibttyg7ur6"
+          "apiKey": "AIzaSyDAqpfFVnlLPAkVZAqXkp0QHaDWHJxaWys"
         }
       },
       "adaptiveIcon": {
@@ -110,9 +117,16 @@
         "android.permission.INTERNET",
         "POST_NOTIFICATIONS"
       ],
-      "blockedPermissions": ["READ_CONTACTS"],
+      "blockedPermissions": [
+        "READ_CONTACTS"
+      ],
       "versionCode": 1
     },
-    "scheme": "homlisti"
+    "scheme": "myapp",
+    "extra": {
+      "eas": {
+        "projectId": "e390f657-6cff-4d7f-8551-bd7208bd2899"
+      }
+    }
   }
 }

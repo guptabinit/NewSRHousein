@@ -1,8 +1,8 @@
-// import { AccessToken, LoginManager } from "react-native-fbsdk-next";
-// import {
-//   GoogleSignin,
-//   statusCodes,
-// } from "@react-native-google-signin/google-signin";
+import { AccessToken, LoginManager } from "react-native-fbsdk-next";
+import {
+  GoogleSignin,
+  statusCodes,
+} from "@react-native-google-signin/google-signin";
 import React, { useState, useEffect } from "react";
 import {
   Keyboard,

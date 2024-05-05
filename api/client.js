@@ -2,10 +2,10 @@
 import { create } from "apisauce";
 //  Do not change anything above this line if you're not sure about what you're doing.
 
-const domain = "https://radiustheme.net";
-const apiKey = "g354-536y-5636-536y356-rtg34";
+const domain = "https://webmits.com";
+const apiKey = "85ef1cca-767e-474a-9979-c08e92484919";
 
-const apiRequestTimeOut = 60000; // 60 secs
+const apiRequestTimeOut = 30000; // 30 secs
 
 //  Do not change anything below this line if you're not sure about what you're doing.
 

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "616127235842",
+    "project_id": "srhousein-7115c",
+    "storage_bucket": "srhousein-7115c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616127235842:android:09bdaedfd1381f0fa4e41b",
+        "android_client_info": {
+          "package_name": "com.srhousein"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616127235842-8m20haq2hua0fim4g8sd3gnp8087mjb5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.srhousein",
+            "certificate_hash": "c6c920d9510866b7b8cdc0fedf8add69a9336e35"
+          }
+        },
+        {
+          "client_id": "616127235842-kf1rfmo324l9ljgcutb64gvoghcb8jjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEW2bzFbYOVdyQEt2g7jPmrWOqtHKGvuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616127235842-kf1rfmo324l9ljgcutb64gvoghcb8jjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
